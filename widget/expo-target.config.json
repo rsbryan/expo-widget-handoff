@@ -1,0 +1,11 @@
+{
+  "type": "widget",
+  "name": "Widgets",
+  "deploymentTarget": "17.0",
+  "frameworks": ["SwiftUI", "WidgetKit", "ActivityKit"],
+  "entitlements": {
+    "com.apple.security.application-groups": [
+      "group.com.example.app.widgets"
+    ]
+  }
+}
